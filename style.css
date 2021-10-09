@@ -1,0 +1,101 @@
+body{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Gilroy';
+    background-color: rgba(204, 204, 204, 0.925);
+   
+}
+@font-face {
+    font-family: 'Gilroy Bold';
+    src: url('font/Gilroy-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Gilroy';
+    src: url('font/Gilroy-Regular.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+.maindiv{
+    margin:50px;
+    position: relative;
+}
+.maindiv__control{
+    background-color: rgb(40, 162, 184);
+    padding:30px;
+    height:45vh;
+}
+.maindiv__control-input{
+    position: absolute;
+    right:40%;
+    
+}
+.maindiv__control-balance p {
+ color:white
+}
+.entry_size{
+    font-size: 50px;
+}
+.balance, .income, .expense{
+    font-size: 16px;
+}
+.name,.amount{
+    padding: 10px 15px;
+	box-sizing: border-box;
+}
+.amount__button, .expense__button{
+    width:40px;
+    height: 40px;
+
+}
+.amount__button i, .expense__button i{
+    font-size: 15px;
+}
+.listdiv{
+    background-color: white;
+    padding:30px;
+    height:90vh;
+}
+.income_lists--list{
+   background-color: rgb(7, 189, 46);
+   padding: 25px;
+   margin-bottom: 10px;
+}
+.income_lists--list a{
+    float: right;
+}
+.expense_lists--list a{
+    float: right;
+}
+.expense_lists--list{
+   background-color: rgb(211, 46, 5);
+   padding: 25px;
+   margin-bottom: 10px;
+}
+.row {
+  max-width: 1140px;
+  margin: 0 auto; }
+  .row:not(:last-child) {
+    margin-bottom: 80px; }
+  .row::after {
+    content: "";
+    display: table;
+    clear: both; }
+  .row [class^="col-"] {
+    float: left; }
+    .row [class^="col-"]:not(:last-child) {
+      margin-right: 60px; }
+  .row .col-1-of-2 {
+    width: calc((100% - 60px) / 2); }
+  .row .col-1-of-3 {
+    width: calc((100% - 2*(60px))/3); }
+  .row .col-1-of-4 {
+    width: calc((100% - 3*(60px))/4); }
+  .row .col-2-of-3 {
+    width: calc(    2*((100% - 2*(60px))/3)  + 60px); }
+  .row .col-2-of-4 {
+    width: calc(2*((100% - 3*(60px))/4) + 60px); }
+  .row .col-3-of-4 {
+    width: calc( 3*((100% - 3*(60px))/4) + 2*(60px)); }
