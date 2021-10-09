@@ -8,7 +8,7 @@ let expense_button = document.querySelector( ".expense__button" );
 let expense_value = document.querySelector( ".maindiv__control-expense__text" );
 let income_value = document.querySelector( ".maindiv__control-income__text" );
 let budget_value = document.querySelector(".maindiv__control-balance__text");
-
+let some_var = ""
 
 // ---------- expense and income objects ----------
 function Expense (name, amount, type)
